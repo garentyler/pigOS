@@ -1,0 +1,12 @@
+[package]
+name = "pigOS"
+version = "0.1.0"
+authors = ["Garen Tyler <garentyler@gmail.com>"]
+edition = "2018"
+
+[features]
+default = []
+bsp_rpi3 = []
+bsp_rpi4 = []
+
+[dependencies]
